@@ -22,4 +22,4 @@ There are 4 settings, which can be found in the Settings menu in the CMS under "
 
 ## Installation
 
-`"heyday/silverstripe-fb-pagefeed": "1.1.*"`
+`"tomstgeorge/silverstripe-fb-pagefeed": "1.0.*"`
