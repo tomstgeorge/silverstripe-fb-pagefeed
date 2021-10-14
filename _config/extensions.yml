@@ -2,7 +2,7 @@
 Name: 'extensions'
 After: 'framework/*'
 ---
-SiteConfig:
+Silverstripe\SiteConfig\SiteConfig:
   extensions:
     - Olliepop\FBPageFeed\SiteConfigExtension
 
