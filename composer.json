@@ -1,21 +1,21 @@
 {
-  "name": "heyday/silverstripe-fb-pagefeed",
+  "name": "tomstgeorge/silverstripe-fb-pagefeed",
   "description": "Copied and modified this module: Olliepop/fbpagefeed",
   "type": "silverstripe-module",
-  "homepage": "https://github.com/heyday/silverstripe-fb-pagefeed",
+  "homepage": "https://github.com/tomstgeorge/silverstripe-fb-pagefeed",
   "author": [
     {
-      "name": "Clement Tartar",
-      "email": "clement.tartar@heyday.co.nz"
+      "name": "Tom St George",
+      "email": "contact@tomstgeorge.com"
     }
   ],
   "support": {
-    "issues": "https://github.com/heyday/silverstripe-fb-pagefeed/issues"
+    "issues": "https://github.com/tomstgeorge/silverstripe-fb-pagefeed/issues"
   },
   "require": {
-    "php": ">=5.3.2",
-    "silverstripe/cms": ">=3.1.0",
-    "silverstripe/framework": ">=3.1.0",
+    "php": ">=7.4",
+    "silverstripe/cms": ">=4.0",
+    "silverstripe/framework": ">=4.0",
     "facebook/php-sdk-v4": "4.0.*"
   }
 }
