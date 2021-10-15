@@ -3,7 +3,7 @@
 namespace Olliepop\FBPageFeed;
 
 use SilverStripe\ORM\DataExtension;
-use SilverStripe\ORM\FieldList;
+use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TextField;
 
 class SiteConfigExtension extends DataExtension
