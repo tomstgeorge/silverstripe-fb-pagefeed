@@ -4,6 +4,7 @@ namespace Olliepop\FBPageFeed;
 
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\ORM\FieldList;
+use SilverStripe\Forms\TextField;
 
 class SiteConfigExtension extends DataExtension
 {
@@ -15,10 +16,10 @@ class SiteConfigExtension extends DataExtension
     );
 
     public function updateCMSFields(FieldList $fields) {
-        $fields->addFieldToTab("Root.FacebookFeed", new \TextField("FBAppID", "Facebook App ID"));
-        $fields->addFieldToTab("Root.FacebookFeed", new \TextField("FBAppSecret", "Facebook App Secret"));
-        $fields->addFieldToTab("Root.FacebookFeed", new \TextField("FBAccessToken", "Facebook Access Token"));
-        $fields->addFieldToTab("Root.FacebookFeed", new \TextField("FBPageID", "Facebook Page ID"));
+        $fields->addFieldToTab("Root.FacebookFeed", new TextField("FBAppID", "Facebook App ID"));
+        $fields->addFieldToTab("Root.FacebookFeed", new TextField("FBAppSecret", "Facebook App Secret"));
+        $fields->addFieldToTab("Root.FacebookFeed", new TextField("FBAccessToken", "Facebook Access Token"));
+        $fields->addFieldToTab("Root.FacebookFeed", new TextField("FBPageID", "Facebook Page ID"));
     }
 
 }
